@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bodoni+Moda:wght@500&display=swap" rel="stylesheet">
+<title>CoinLayer</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark justify-content-center py-5">
+        <div>
+          <h1 class="navbar-brand">CoinLayer Powered Crypto Prices</h1>
+        </div>
+      </nav>
+
+
+      <div class="container p-3">
+        <div class="row justify-content-center">
+          <div class="coin-div col-lg-4 col-md-6">
+            <div class="image-container">
+              <img src="images/Bitcoin.jpeg" alt="" class="coin-img img-fluid">
+              <div class="overlay">
+                <h1>Bitcoin</h1>
+                <p>Price: $<span id="bitcoin-price"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="coin-div col-lg-4 col-md-6">
+            <div class="image-container">
+              <img src="images/Ethereum.png" alt="" class="coin-img img-fluid">
+              <div class="overlay">
+                <h1>Ethereum</h1>
+                <p>Price: $<span id="ethereum-price"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="coin-div col-lg-4 col-md-6">
+            <div class="image-container">
+              <img src="images/BNB.png" alt="" class="coin-img img-fluid">
+              <div class="overlay">
+                <h1>BNB Coin</h1>
+                <p>Price: $<span id="bnb-price"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="coin-div col-lg-4 col-md-6">
+            <div class="image-container">
+              <img src="images/Dogecoin.jpeg" alt="" class="coin-img img-fluid">
+              <div class="overlay">
+                <h1>Dogecoin</h1>
+                <p>Price: $<span id="dogecoin-price"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="coin-div col-lg-4 col-md-6">
+            <div class="image-container">
+              <img src="images/Cardano.jpeg" alt="" class="coin-img img-fluid">
+              <div class="overlay">
+                <h1>Cardano</h1>
+                <p>Price: $<span id="cardano-price"></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="coin-div col-lg-4 col-md-6">
+            <div class="image-container">
+              <img src="images/Tether.jpeg" alt="" class="coin-img img-fluid">
+              <div class="overlay">
+                <h1>Tether</h1>
+                <p>Price: $<span id="tether-price"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-button">
+        <button id="toggle-overlay">Show All Info</button>
+      </div>
+
+      
+
+<script src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
