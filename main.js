@@ -1,4 +1,4 @@
-const api_key = 'edc33b86cd82faa281243e5efe244a28';
+const api_key = '003671e9f5aada7e8c8d37fcb3b8933e';
 
 async function getCryptoData () {
     const url = `http://api.coinlayer.com/api/live?access_key=${api_key}`
